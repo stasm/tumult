@@ -49,7 +49,7 @@ The Game Master reveals and resolves all orders simultaneously. This can lead to
 
 *   **Uncontested Move**: Your army moves into a vacant or friendly node.
 *   **Challenge**: Your army moves into a node where an enemy is Defending, starting a battle.
-*   **Head-on-Clash**: Your army and an enemy army try to swap nodes. A battle occurs on the route between them. Each army uses the Supply Value calculated from its starting node.
+*   **Head-on-Clash**: Your army and an enemy army try to swap nodes. The battle immediately occurs at the node with the higher base Supply Value. Both armies calculate their fieldable army size based on this new location.
 *   **Contested Target**: Two or more armies move to the same destination node. This triggers a Standoff.
 
 #### Standoff Resolution
@@ -69,7 +69,9 @@ All battles from the Order Resolution Phase are fought now.
 
 The results of the turn are made public.
 
-*   **Update Map**: Control of Nodes is updated based on battle outcomes.
+*   **Update Map & Handle Retreats**: The winner of a battle takes control of the contested node.
+    *   **If the Attacker Loses**: Your army is repelled and returns to the node it came from.
+    *   **If the Defender Loses**: Your army must retreat to an adjacent, friendly node. If there is no safe path of retreat, your army is scattered, and all its units are permanently lost.
 *   **Award Renown**: Heroes involved in battles earn Renown.
 *   **Collect Revenue**: You gain Gold Crowns for each Node you control.
 

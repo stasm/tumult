@@ -30,7 +30,7 @@ The GM reveals and resolves all orders simultaneously.
 * Move Orders are resolved last. This can result in several outcomes:
   * Uncontested Move: The army moves into a vacant or friendly node successfully.
   * Challenge: An army moves into a node where an enemy is Defending. A battle is initiated.
-  * Head-on-Clash: Two armies move to swap nodes (A moves to B's node, B moves to A's). A battle is initiated on the route between them. Each army uses the Supply Value calculated from its starting node (the node it was in before moving), preserving the natural asymmetry of the situation.
+  * Head-on-Clash: Two armies move to swap nodes (A moves to B's node, B moves to A's). The battle is fought at the node with the higher base Supply Value. Both armies calculate their supply based on that node.
   * Contested Target: Two or more armies move to the same destination node. This triggers an immediate Standoff Resolution.
 
 #### Standoff Resolution for Contested Targets
@@ -53,7 +53,10 @@ Resolve all battles initiated in the Order Resolution Phase.
 
 This phase resolves the results of the turn's actions in full view of all players.
 
-* Update Map: Adjust control of Nodes based on the battle outcomes.
+* Update Map & Retreats: The winner of a battle takes control of the contested node. The losing army's fate is determined as follows:
+  * If the Attacker Loses: The attack is repelled. The attacker's army returns to the node it moved from at the start of the turn.
+  * If the Defender Loses: The defender's army must retreat to a single, adjacent, friendly-controlled node of their choice.
+  * If Retreat is Impossible: If a defending army loses and has no friendly nodes to retreat to (i.e., it is surrounded), it is scattered and destroyed. All surviving units from that battle are permanently removed from the player's Army Roster.
 * Award Renown: Heroes involved in the turn's battles earn Renown.
 * Collect Revenue: Gain Gold Crowns for each Node you currently control. This income is available to spend in the next turn's Downtime Phase.
 
