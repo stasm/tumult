@@ -42,9 +42,8 @@ When a Contested Target occurs, the main turn is paused. The involved players mu
 
 Resolution:
 
-* If all involved players choose Stand and Fight, a multi-army battle begins. The last player with troops on the field wins the node.
-* If one player chooses Stand and Fight and all others Withdraw, the standing army proceeds to the node. If the node is defended, a battle is initiated against the defending army. If the node is vacant, the standing army must attack one of the withdrawing armies (player's choice) in a rear-guard battle.
-* If all involved players Withdraw, all armies return to their starting nodes, and the target node remains neutral or with its previous owner.
+* If all involved players choose **Withdraw**, all armies return to their starting nodes, and the target node remains neutral or with its previous owner.
+* If even one player chooses **Stand and Fight**, a battle is initiated. All armies that moved to the contested node are drawn into the fight, including those that chose to Withdraw. If the node was defended, the defending army also participates. The winner takes control of the node.
 
 ### Phase 4: Battle Phase
 

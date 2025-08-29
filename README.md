@@ -59,7 +59,7 @@ When a Contested Target occurs, the involved players must immediately submit a n
 *   **Stand and Fight**: Your army holds its ground, ready for battle.
 *   **Withdraw**: Your army retreats to the node it came from.
 
-If one player chooses Stand and Fight while others Withdraw, the standing army proceeds to the node. If the node is defended, a battle is initiated against the defending army. If the node is vacant, the standing army must attack one of the withdrawing armies (player's choice) in a rear-guard battle.
+The choice is a gamble. If all players involved choose to **Withdraw**, everyone returns to their starting node safely. However, if even one player chooses to **Stand and Fight**, a battle is triggered. All armies that moved to the node, including those that chose to Withdraw, are immediately drawn into the fight along with any defending army. The winner takes the node.
 
 ### Phase 4: Battle Phase
 
