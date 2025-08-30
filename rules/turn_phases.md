@@ -2,23 +2,17 @@
 
 ## The Campaign Turn
 
-The campaign proceeds in five phases, forming a complete cycle of planning, action, and resolution.
+The campaign proceeds in four phases, forming a complete cycle of planning, action, and resolution.
 
-### Phase 1: Downtime Phase (Private)
+### Phase 1: Downtime (Private)
 
-Players manage their forces and plan their next moves privately. Players are trusted to keep their own records of Gold, Renown, and their current Army Roster.
+Players manage their forces, plan their next moves, and issue their secret orders for the turn. Players are trusted to keep their own records of Gold, Renown, and their current Army Roster.
 
 *   **Spend Gold**: Replenish losses from existing units or purchase new units for your Army Roster.
 *   **Spend Renown**: Upgrade your Hero with new traits.
-*   **Plan Attacks**: Secretly plan your attacks for the turn ahead.
+*   **Issue Secret Orders**: Each player secretly writes down their order for the turn and gives it to the GM. The only available order is **Attack**. Each player may only issue one Attack order per turn. To initiate a battle, you issue an "Attack" order, specifying the target Location you intend to capture.
 
-### Phase 2: Secret Orders Phase
-
-Each player secretly writes down their order for the turn and gives it to the GM. The only available order is **Attack**. Each player may only issue one Attack order per turn.
-
-*   **Attack**: To initiate a battle, you issue an "Attack" order, specifying the target Location you intend to capture.
-
-### Phase 3: Order Resolution Phase
+### Phase 2: Reveal
 
 The GM reveals and resolves all orders simultaneously.
 
@@ -37,11 +31,11 @@ When a Standoff occurs, the main turn is paused. The involved players (including
 *   **If all involved players choose to Withdraw**: The Location remains in the defender's hands. The turn proceeds.
 *   **If at least one player chooses to Stand and Fight**: A battle is initiated. All players involved in the Standoff (including those who chose to Withdraw) are drawn into the battle. The winner takes control of the Location.
 
-### Phase 4: Battle Phase
+### Phase 3: Battle
 
 Resolve all battles initiated in the Order Resolution Phase. For each battle, players muster an army from their Army Roster, adhering to the calculated battle size for the Location.
 
-### Phase 5: Resolution Phase (Public)
+### Phase 4: Update
 
 This phase resolves the results of the turn's actions in full view of all players.
 

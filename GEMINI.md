@@ -22,7 +22,7 @@ The `rules` directory contains the user-facing, "release" version of the rules, 
 
 These documents contain the comprehensive, user-facing rules for the campaign.
 
-*   `rules/turn_phases.md`: This document provides a detailed breakdown of the five phases of a campaign turn: Downtime, Secret Orders, Order Resolution, Battle, and Resolution.
+*   `rules/turn_phases.md`: This document provides a detailed breakdown of the four phases of a campaign turn: Downtime, Reveal, Battle, and Update.
 *   `rules/map_supply.md`: This document details the campaign map, the concept of "Supply" for determining army sizes, and the "Decimal Contribution System" for calculating it.
 *   `rules/roster_management.md`: This document outlines the rules for managing your Army Roster, recruiting new troops, and replenishing losses.
 *   `rules/hero_progression.md`: This document explains the hero progression system, which is based on acquiring "Traits" that provide bonuses and sometimes thematic downsides.
