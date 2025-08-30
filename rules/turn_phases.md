@@ -18,18 +18,11 @@ The GM reveals and resolves all orders simultaneously.
 
 *   **Uncontested Attack**: If a Location is attacked by only one player, a battle is initiated between the attacker and the defending player.
 *   **Contested Attack**: If a Location is attacked by two or more players simultaneously, this triggers a **Standoff**.
-
-#### Standoff Resolution for Contested Attacks
-
-When a Standoff occurs, the main turn is paused. The involved players (including the defender) must immediately and secretly submit a new order to the GM from the following options:
-
-*   **Stand and Fight**: The player commits to a battle for the Location.
-*   **Withdraw**: The player pulls their forces back, ceding the Location to their rivals.
-
-**Resolution:**
-
-*   **If all involved players choose to Withdraw**: The Location remains in the defender's hands. The turn proceeds.
-*   **If at least one player chooses to Stand and Fight**: A battle is initiated. All players involved in the Standoff (including those who chose to Withdraw) are drawn into the battle. The winner takes control of the Location.
+    * A Standoff requires all involved players to immediately and secretly submit a new order to the GM from the following options:
+        *   **Stand and Fight**: The player commits to a battle for the Location.
+        *   **Withdraw**: The player pulls their forces back, ceding the Location to their rivals.
+    * If all involved players choose to Withdraw, the Location remains unchanged.
+    * If at least one player chooses to Stand and Fight, a battle is initiated. All players involved in the Standoff (including those who chose to Withdraw) are drawn into the battle. The winner takes control of the Location.
 
 ### Phase 3: Battle
 
