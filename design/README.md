@@ -20,7 +20,5 @@ This document outlines a narrative campaign for Warhammer: The Old World, center
 
 ## Other Docs
 
-* [Campaign Map & Supply](map_supply.md)
-* [Campaign Turns & Phases](turn_phases.md)
 * [Progression & Traits](progression_traits.md)
-* [Roster Management](roster_management.md)
+* [Region Control Bonuses](region_bonuses.md)

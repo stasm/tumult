@@ -5,7 +5,11 @@
 The campaign map is divided into several named **Regions**. Each region is a collection of thematically-linked **Locations** that are connected by **Routes**.
 
 *   **Regions**: Groups of locations that, when fully controlled, provide a strategic bonus to the controlling player.
-*   **Locations**: These are the individual territories you fight to control, such as towns, strongholds, or mountain passes. Each has a Supply Value representing the army points it can support (e.g., Villages 250, Towns 500).
+*   **Locations**: These are the individual territories you fight to control, such as towns, strongholds, or mountain passes. Each has a Supply Value representing the army points it can support:
+    *   **Village**: 250 Supply
+    *   **Town**: 500 Supply
+    *   **Fortress**: 800 Supply
+    *   **Capital**: 1000 Supply
 *   **Routes**: These are the paths that connect Locations, restricting army movement and creating natural chokepoints.
 
 ## Armies & Supply
