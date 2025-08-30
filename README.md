@@ -13,14 +13,14 @@ This campaign is designed to be a dynamic and narrative-driven experience. Here 
 
 ## The Campaign Map
 
-The campaign is played on a map of named locations called **Nodes**, connected by **Routes**.
+The campaign is played on a map of named locations, connected by **Routes**.
 
-*   **Nodes**: These are territories you fight to control. Each Node has a Supply Value, which represents the size of the army it can support.
+*   **Locations**: These are territories you fight to control. Each Location has a Supply Value, which represents the size of the army it can support.
     *   **Village**: 250 Supply
     *   **Town**: 500 Supply
     *   **Fortress**: 800 Supply
     *   **Capital**: 1000 Supply
-*   **Routes**: These are the paths that connect Nodes. Your armies can only move between Nodes that are connected by a Route.
+*   **Routes**: These are the paths that connect Locations. Your armies can only move between Locations that are connected by a Route.
 
 ## The Campaign Turn
 
@@ -38,31 +38,31 @@ In this phase, you manage your army and plan your strategy in secret.
 
 Secretly write down one order for each of your armies (your Main Army and any Regiments) and submit it to the Game Master.
 
-*   **Move**: Move an army to an adjacent, connected Node.
-*   **Defend**: The army remains in its current Node, ready to repel an attack. If an army under a "Defend" order is attacked, its player may choose one of the following bonuses before the battle begins:
+*   **Move**: Move an army to an adjacent, connected Location.
+*   **Defend**: The army remains in its current Location, ready to repel an attack. If an army under a "Defend" order is attacked, its player may choose one of the following bonuses before the battle begins:
     * **Favourable Ground**: You may choose your deployment zone.
     * **Prepared Ambuscade**: Grant one of your Core units the Vanguard special rule for this battle.
     * **Ready for the Assault**: You gain a +1 modifier on the roll to determine who takes the first turn.
 *   **Create Regiment**: Split an army into two. You must specify which units are assigned to the new Regiment.
-*   **Merge Regiment**: Combine your army and a friendly Regiment in the same Node into a single force.
+*   **Merge Regiment**: Combine your army and a friendly Regiment in the same Location into a single force.
 
 ### Phase 3: Order Resolution Phase
 
 The Game Master reveals and resolves all orders simultaneously. This can lead to battles.
 
-*   **Uncontested Move**: Your army moves into a vacant or friendly node.
-*   **Challenge**: Your army moves into a node where an enemy is Defending, starting a battle.
-*   **Head-on-Clash**: Your army and an enemy army try to swap nodes. The battle immediately occurs at the node with the higher base Supply Value. Both armies calculate their fieldable army size based on this new location.
-*   **Contested Target**: Two or more armies move to the same destination node. This triggers a Standoff.
+*   **Uncontested Move**: Your army moves into a vacant or friendly location.
+*   **Challenge**: Your army moves into a location where an enemy is Defending, starting a battle.
+*   **Head-on-Clash**: Your army and an enemy army try to swap locations. The battle immediately occurs at the location with the higher base Supply Value. Both armies calculate their fieldable army size based on this new location.
+*   **Contested Target**: Two or more armies move to the same destination location. This triggers a Standoff.
 
 #### Standoff Resolution
 
 When a Contested Target occurs, the involved players must immediately submit a new secret order:
 
 *   **Stand and Fight**: Your army holds its ground, ready for battle.
-*   **Withdraw**: Your army retreats to the node it came from.
+*   **Withdraw**: Your army retreats to the location it came from.
 
-The choice is a gamble. If all players involved choose to **Withdraw**, everyone returns to their starting node safely. However, if even one player chooses to **Stand and Fight**, a battle is triggered. All armies that moved to the node, including those that chose to Withdraw, are immediately drawn into the fight along with any defending army. The winner takes the node.
+The choice is a gamble. If all players involved choose to **Withdraw**, everyone returns to their starting location safely. However, if even one player chooses to **Stand and Fight**, a battle is triggered. All armies that moved to the location, including those that chose to Withdraw, are immediately drawn into the fight along with any defending army. The winner takes the location.
 
 ### Phase 4: Battle Phase
 
@@ -72,11 +72,11 @@ All battles from the Order Resolution Phase are fought now.
 
 The results of the turn are made public.
 
-*   **Update Map & Handle Retreats**: The winner of a battle takes control of the contested node.
-    *   **If the Attacker Loses**: Your army is repelled and returns to the node it came from.
-    *   **If the Defender Loses**: Your army must retreat to an adjacent, friendly node. If there is no safe path of retreat, your army is scattered, and all its units are permanently lost.
+*   **Update Map & Handle Retreats**: The winner of a battle takes control of the contested location.
+    *   **If the Attacker Loses**: Your army is repelled and returns to the location it came from.
+    *   **If the Defender Loses**: Your army must retreat to an adjacent, friendly location. If there is no safe path of retreat, your army is scattered, and all its units are permanently lost.
 *   **Award Renown**: Heroes involved in battles earn Renown.
-*   **Collect Revenue**: You gain Gold Crowns for each Node you control.
+*   **Collect Revenue**: You gain Gold Crowns for each Location you control.
 
 ## Army Management & Supply
 
@@ -88,9 +88,9 @@ This is your master list of all the units you own. It grows when you recruit new
 
 Your army's size for a battle is determined by the Supply Value of the territory it's in, using the **Decimal Contribution System**:
 
-*   **100%** of the Supply from your army's current Node.
-*   **10%** of the Supply from each adjacent, friendly Node.
-*   **1%** of the Supply from each friendly Node two spaces away.
+*   **100%** of the Supply from your army's current Location.
+*   **10%** of the Supply from each adjacent, friendly Location.
+*   **1%** of the Supply from each friendly Location two spaces away.
 
 ### Splitting Forces
 

@@ -19,7 +19,7 @@ The following mechanical "levers" can be used to create unique Hero traits.
 
 3. Campaign Effects (Outside of Battle):
 
-	•	Economy: Modify the Gold or Supply income from controlled Nodes, or change the cost to recruit/replenish units.
+	•	Economy: Modify the Gold or Supply income from controlled Locations, or change the cost to recruit/replenish units.
 	•	Strategy & Intelligence: Allow faster movement on the map, or grant intelligence about an opponent's Secret Order.
 	•	Persistence: Change the rules for unit recovery, such as allowing a completely destroyed unit to be "re-formed" at a reduced cost.
 
