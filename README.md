@@ -8,7 +8,8 @@ This campaign is designed to be a dynamic and narrative-driven experience. Here 
 
 *   **Asymmetrical Battles**: Forget fixed point values. The strategic situation on the map directly determines your army size, leading to unique and challenging battles. An 850-point army might face a 1200-point horde if they're defending a critical fortress.
 *   **Creative Army Building**: The unusual point totals will challenge you to think outside the box and create flexible, adaptable army lists rather than relying on standard tournament builds.
-*   **Strategic Depth**: You'll need to manage multiple armies, predict your opponents' secret moves, and decide when to concentrate your forces or spread them out to control territory.
+*   **Focus on Territory**: Victory comes from controlling a wide and contiguous empire that fuels your war effort, not from chasing individual armies across the map. Your strategic position is more important than any single tactical victory.
+*   **Simultaneous Secret Orders**: All players submit their orders in secret, leading to a tense resolution phase filled with bluffs, gambles, and unexpected standoffs.
 *   **Evolving Heroes**: Your warlord will grow and change over the campaign, gaining unique traits—and even injuries—that tell a story. Progression is about interesting choices, not just bigger stats.
 
 ## The Campaign Map
@@ -20,7 +21,7 @@ The campaign is played on a map of named locations, connected by **Routes**.
     *   **Town**: 500 Supply
     *   **Fortress**: 800 Supply
     *   **Capital**: 1000 Supply
-*   **Routes**: These are the paths that connect Locations. Your armies can only move between Locations that are connected by a Route.
+*   **Routes**: These are the paths that connect Locations.
 
 ## The Campaign Turn
 
@@ -32,37 +33,27 @@ In this phase, you manage your army and plan your strategy in secret.
 
 *   **Spend Gold**: Replenish losses from your existing units or purchase new units to add to your Army Roster.
 *   **Spend Renown**: Upgrade your Hero by acquiring new, powerful traits.
-*   **Plan Moves**: Decide on the secret orders you will issue to your armies this turn.
+*   **Plan Attacks**: Decide on the secret orders you will issue to your armies this turn.
 
 ### Phase 2: Secret Orders Phase
 
-Secretly write down one order for each of your armies (your Main Army and any Regiments) and submit it to the Game Master.
-
-*   **Move**: Move an army to an adjacent, connected Location.
-*   **Defend**: The army remains in its current Location, ready to repel an attack. If an army under a "Defend" order is attacked, its player may choose one of the following bonuses before the battle begins:
-    * **Favourable Ground**: You may choose your deployment zone.
-    * **Prepared Ambuscade**: Grant one of your Core units the Vanguard special rule for this battle.
-    * **Ready for the Assault**: You gain a +1 modifier on the roll to determine who takes the first turn.
-*   **Create Regiment**: Split an army into two. You must specify which units are assigned to the new Regiment.
-*   **Merge Regiment**: Combine your army and a friendly Regiment in the same Location into a single force.
+Secretly write down one **Attack** order and submit it to the Game Master. Each player may only issue one Attack order per turn.
 
 ### Phase 3: Order Resolution Phase
 
 The Game Master reveals and resolves all orders simultaneously. This can lead to battles.
 
-*   **Uncontested Move**: Your army moves into a vacant or friendly location.
-*   **Challenge**: Your army moves into a location where an enemy is Defending, starting a battle.
-*   **Head-on-Clash**: Your army and an enemy army try to swap locations. The battle immediately occurs at the location with the higher base Supply Value. Both armies calculate their fieldable army size based on this new location.
-*   **Contested Target**: Two or more armies move to the same destination location. This triggers a Standoff.
+*   **Uncontested Attack**: If a Location is attacked by only one player, a battle is initiated between the attacker and the defending player.
+*   **Contested Attack**: If a Location is attacked by two or more players simultaneously, this triggers a **Standoff**.
 
 #### Standoff Resolution
 
-When a Contested Target occurs, the involved players must immediately submit a new secret order:
+When a Standoff occurs, the involved players (including the defender) must immediately and secretly submit a new order:
 
-*   **Stand and Fight**: Your army holds its ground, ready for battle.
-*   **Withdraw**: Your army retreats to the location it came from.
+*   **Stand and Fight**: The player commits to a battle for the Location.
+*   **Withdraw**: The player pulls their forces back, ceding the Location to their rivals.
 
-The choice is a gamble. If all players involved choose to **Withdraw**, everyone returns to their starting location safely. However, if even one player chooses to **Stand and Fight**, a battle is triggered. All armies that moved to the location, including those that chose to Withdraw, are immediately drawn into the fight along with any defending army. The winner takes the location.
+If all involved players choose to Withdraw, the Location remains in the defender's hands. However, if at least one player chooses to Stand and Fight, a battle is initiated. All players involved in the Standoff (including those who chose to Withdraw) are drawn into the battle. The winner takes control of the Location.
 
 ### Phase 4: Battle Phase
 
@@ -72,40 +63,37 @@ All battles from the Order Resolution Phase are fought now.
 
 The results of the turn are made public.
 
-*   **Update Map & Handle Retreats**: The winner of a battle takes control of the contested location.
-    *   **If the Attacker Loses**: Your army is repelled and returns to the location it came from.
-    *   **If the Defender Loses**: Your army must retreat to an adjacent, friendly location. If there is no safe path of retreat, your army is scattered, and all its units are permanently lost.
+*   **Update Map Control**: The winner of a battle takes control of the contested Location.
 *   **Award Renown**: Heroes involved in battles earn Renown.
 *   **Collect Revenue**: You gain Gold Crowns for each Location you control.
 
-## Army Management & Supply
+## Armies & Supply
 
-### Army Roster
+In Tumult, armies are an abstract representation of a player's military might, not physical pieces on the map. A player's forces are represented by their **Army Roster**, which is a master list of all the units they command.
 
-This is your master list of all the units you own. It grows when you recruit new units and shrinks when they are permanently destroyed.
+When a battle is fought, players muster an army for that specific engagement by choosing units from their Army Roster. The same units and heroes can be used in multiple battles during the same campaign turn.
 
-### Calculating Fieldable Army Size
+## Calculating Battle Size
 
-Your army's size for a battle is determined by the Supply Value of the territory it's in, using the **Decimal Contribution System**:
+The maximum size of an army in any given battle is determined by the **Supply Value** of the Location where the battle is taking place. This is calculated using the **Decimal Contribution System**.
 
-*   **100%** of the Supply from your army's current Location.
-*   **10%** of the Supply from each adjacent, friendly Location.
-*   **1%** of the Supply from each friendly Location two spaces away.
+To calculate the maximum points for a battle at a specific Location (the "battleground"):
 
-### Splitting Forces
+*   **Attacker's Maximum Army Size**:
+    *   100% of the Supply Value of the battleground Location.
+    *   10% of the Supply Value from each adjacent, friendly-controlled Location.
+    *   1% of the Supply Value from each second-degree friendly-controlled Location.
 
-You can field one **Main Army** led by your Hero and multiple smaller **Regiments**. When you create a Regiment, you assign units from your Army Roster to it. These units are tied to that Regiment until you merge it back into another army.
+*   **Defender's Maximum Army Size**:
+    *   100% of the Supply Value of the battleground Location.
+    *   10% of the Supply Value from each adjacent, friendly-controlled Location.
+    *   1% of the Supply Value from each second-degree friendly-controlled Location.
 
-## Determining Battle Size
+Once both players have calculated their maximum army size, a 500-point floor is applied.
 
-*   **Calculate Supply**: Both players calculate their army size using the Decimal Contribution System.
-*   **500-Point Floor**: If either player’s calculated Supply is below 500, it is raised to 500.
-*   The battle is fought with these final, adjusted army sizes.
+*   **Apply 500-Point Floor**: If a player’s calculated maximum army size is below 500, it is raised to 500. Otherwise, they use their full calculated value.
 
-**Examples:**
-*   Player A (800 Supply) vs. Player B (650 Supply) -> **800 vs. 650**
-*   Player A (700 Supply) vs. Player B (350 Supply) -> **700 vs. 500**
-*   Player A (400 Supply) vs. Player B (250 Supply) -> **500 vs. 500**
+Players then muster an army for the battle, ensuring their army's total points value does not exceed their calculated maximum.
 
 ## Hero Progression
 

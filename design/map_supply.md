@@ -8,33 +8,39 @@ The campaign map is divided into several named **Regions**. Each region is a col
 *   **Locations**: These are the individual territories you fight to control, such as towns, strongholds, or mountain passes. Each has a Supply Value representing the army points it can support (e.g., Villages 250, Towns 500).
 *   **Routes**: These are the paths that connect Locations, restricting army movement and creating natural chokepoints.
 
-## Army Management & Supply
+## Armies & Supply
 
-* Army Roster: Your single master list of all owned units, which grows with recruitment and shrinks with permanent losses.
+In Tumult, armies are an abstract representation of a player's military might, not physical pieces on the map. A player's forces are represented by their **Army Roster**, which is a master list of all the units they command.
 
-* Fieldable Army Size: Determined by the Decimal Contribution System:
+When a battle is fought, players muster an army for that specific engagement by choosing units from their Army Roster. The same units and heroes can be used in multiple battles during the same campaign turn.
 
-  * 100% from the army's current Location.
-	* 10% from each adjacent, friendly Location.
-	* 1% from each second-degree friendly Location.
+## Calculating Battle Size
 
-* Splitting Forces: You can have one Main Army led by your primary Hero and multiple smaller Regiments led by other characters.
+The maximum size of an army in any given battle is determined by the **Supply Value** of the Location where the battle is taking place. This is calculated using the **Decimal Contribution System**.
 
-  * When you create a Regiment, you are temporarily assigning units from your master Roster to that new command. Those units are committed to that Regiment and cannot be used by your Main Army or any other force, unless merged back.
+To calculate the maximum points for a battle at a specific Location (the "battleground"):
 
-## Determining Battle Size
+*   **Attacker's Maximum Army Size**:
+    *   100% of the Supply Value of the battleground Location.
+    *   10% of the Supply Value from each adjacent, friendly-controlled Location.
+    *   1% of the Supply Value from each second-degree friendly-controlled Location.
 
-This system ensures every game is a satisfying size while reflecting the strategic situation.
+*   **Defender's Maximum Army Size**:
+    *   100% of the Supply Value of the battleground Location.
+    *   10% of the Supply Value from each adjacent, friendly-controlled Location.
+    *   1% of the Supply Value from each second-degree friendly-controlled Location.
 
-* Calculate Supply: Both players calculate their army size using the Decimal Contribution System.
-* Apply 500-Point Floor: If a player’s calculated Supply is below 500, it is raised to 500. Otherwise, they use their full value.
-* Fight the Battle: The battle is fought with these two final, adjusted army sizes.
+Once both players have calculated their maximum army size, a 500-point floor is applied.
 
-Example Scenarios:
+*   **Apply 500-Point Floor**: If a player’s calculated maximum army size is below 500, it is raised to 500. Otherwise, they use their full calculated value.
 
-* Player A (800 Supply) vs. Player B (650 Supply): The battle is 800 vs. 650.
-* Player A (700 Supply) vs. Player B (350 Supply): The battle is 700 vs. 500. Player B's army is raised to the floor.
-* Player A (400 Supply) vs. Player B (250 Supply): The battle is 500 vs. 500. Both armies are raised to the floor.
+Players then muster an army for the battle, ensuring their army's total points value does not exceed their calculated maximum.
+
+**Example Scenarios:**
+
+*   **Scenario 1**: Player A attacks Player B at a Location. Player A's calculated maximum is 800 points, and Player B's is 650 points. Player A can field an army up to 800 points, and Player B can field an army up to 650 points.
+*   **Scenario 2**: Player A attacks Player B. Player A's maximum is 700, and Player B's is 350. Player B's maximum is raised to 500 points.
+*   **Scenario 3**: Player A attacks Player B. Player A's maximum is 400, and Player B's is 250. Both players' maximums are raised to 500 points.
 
 ## Region Control Bonuses
 
