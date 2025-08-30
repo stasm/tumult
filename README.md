@@ -12,9 +12,13 @@ This campaign is designed to be a dynamic and narrative-driven experience. Here 
 *   **Simultaneous Secret Orders**: All players submit their orders in secret, leading to a tense resolution phase filled with bluffs, gambles, and unexpected standoffs.
 *   **Evolving Heroes**: Your warlord will grow and change over the campaign, gaining unique traits—and even injuries—that tell a story. Progression is about interesting choices, not just bigger stats.
 
-## Chapters
+## Rules
 
 * [Campaign Turn & Phases](rules/turn_phases.md)
 * [Campaign Map & Supply](rules/map_supply.md)
 * [Roster Management](rules/roster_management.md)
 * [Hero Progression](rules/hero_progression.md)
+
+## See Also
+
+* [Design Goals and Principles](design/README.md)
