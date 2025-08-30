@@ -17,7 +17,10 @@ Players manage their forces and plan their next moves privately. Players are tru
 Every player secretly writes down an order for each of their armies (Main Army and any Regiments) and gives it to the GM. The available orders are:
 
 * Move: Move your army from its current Node to an adjacent, connected Node.
-* Defend: The army remains in its current Node, preparing for an attack.
+* Defend: The army remains in its current Node, preparing for an attack. If an army under a "Defend" order is attacked, its player may choose one of the following bonuses before the battle begins:
+  * Favourable Ground: You may choose your deployment zone.
+  * Prepared Ambuscade: Grant one of your Core units the Vanguard special rule for this battle.
+  * Ready for the Assault: You gain a +1 modifier on the roll to determine who takes the first turn.
 * Create Regiment: Split an army. The order must specify which units are being assigned to the new Regiment.
 * Merge Regiment: An army and a friendly Regiment in the same Node merge into a single force.
 

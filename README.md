@@ -39,7 +39,10 @@ In this phase, you manage your army and plan your strategy in secret.
 Secretly write down one order for each of your armies (your Main Army and any Regiments) and submit it to the Game Master.
 
 *   **Move**: Move an army to an adjacent, connected Node.
-*   **Defend**: The army remains in its current Node, ready to repel an attack.
+*   **Defend**: The army remains in its current Node, ready to repel an attack. If an army under a "Defend" order is attacked, its player may choose one of the following bonuses before the battle begins:
+    * **Favourable Ground**: You may choose your deployment zone.
+    * **Prepared Ambuscade**: Grant one of your Core units the Vanguard special rule for this battle.
+    * **Ready for the Assault**: You gain a +1 modifier on the roll to determine who takes the first turn.
 *   **Create Regiment**: Split an army into two. You must specify which units are assigned to the new Regiment.
 *   **Merge Regiment**: Combine your army and a friendly Regiment in the same Node into a single force.
 
