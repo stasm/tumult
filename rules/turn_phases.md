@@ -10,7 +10,15 @@ Players manage their forces, plan their next moves, and issue their secret order
 
 *   **Spend Gold**: Replenish losses from existing units or purchase new units for your Army Roster.
 *   **Spend Renown**: Upgrade your Hero with new traits.
-*   **Issue Secret Orders**: Each player secretly writes down their order for the turn and gives it to the GM. The only available order is **Attack**. Each player may only issue one Attack order per turn. To initiate a battle, you issue an "Attack" order, specifying the target Location you intend to capture.
+*   **Issue Secret Orders**: Each player secretly writes down their order for the turn and gives it to the GM. The only available order is **Attack**. The number of Attack Orders a player can issue is determined by the number of locations they control at the start of the Downtime phase. The formula is the square root of the number of controlled locations, rounded down.
+
+    **Examples:**
+
+    *   **1-3 Locations:** `sqrt(1..3)` is between 1 and 1.73, which rounds down to **1 Attack Order**.
+    *   **4-8 Locations:** `sqrt(4..8)` is between 2 and 2.82, which rounds down to **2 Attack Orders**.
+    *   **9-15 Locations:** `sqrt(9..15)` is between 3 and 3.87, which rounds down to **3 Attack Orders**.
+
+    To initiate a battle, you issue an "Attack" order, specifying the target Location you intend to capture.
 
 ### Phase 2: Reveal
 
